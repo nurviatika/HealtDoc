@@ -1,0 +1,133 @@
+  @media screen and (max-width: 576px) {
+  
+    .logo{
+      gap: 8px;
+      padding: 7px;
+    }
+    header {
+      padding: 12px 24px;
+      gap: 24px;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      font-size: 48px;
+      top: 60px;
+      height: 100vh;
+      right: 0;
+      background-color: rgb(255, 172, 172);
+      width: 100%;
+      text-align: center;
+      z-index: 999;
+      padding: 10px 0;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    button.donwload-btn2 {
+      display: block !important;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    button.donwload-btn {
+      display: none;
+    }
+
+    /* hambuerger */
+    .menu-toggle {
+      display: flex;
+      cursor: pointer;
+    }
+  
+    .menu-toggle span {
+      transition: all 0.4s ease;
+    }
+    .rotate-down {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    .rotate-up {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+    .hide {
+      opacity: 0;
+    }
+
+    
+    /* hero (section 1) */
+
+    .hero-text{
+      gap: 10px;
+      padding: 16px 16px;
+      
+    }  
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 60px;
+      letter-spacing: -0.2px;
+    }  
+
+    .hero-image{
+      flex-wrap: wrap;
+      justify-content: center;
+      display: flex;
+    }  
+    .hero-image img {
+      width: 80%; 
+      /* width: 350px;
+      height: 669px; */
+      /* flex-wrap: wrap; */
+    }  
+
+
+
+     /* alxelie */
+  
+    .alxelie-text {
+      text-align:left;
+      /* padding: 16px; */
+      width: 400px;
+    }  
+  
+    .alxelie-title h2 {
+      font-size: 36px; 
+    }  
+  
+    .alxelie-title p {
+      font-size: 14px;
+      max-width: 100%;
+    }  
+  
+    .alxelie-button {
+      display: flex;
+      justify-content:flex-start;
+    }  
+
+
+    .alxelie {
+      padding: 40px 16px;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      /* display: flex; */
+    }  
+
+    /* .alxelie-image{
+      flex-wrap: wrap;
+      justify-content: center;
+      display: flex;
+      width: 100%;
+    } */  
+    
+    .alxelie-image img {
+      width: 100%; 
+      max-width: 343px;
+      
+      
+    }  
+
+
+
+  }

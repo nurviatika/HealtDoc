@@ -1,0 +1,62 @@
+
+@media (max-width: 1024px) {
+  .about-image{
+    width:70%; 
+  }
+  .about-image img{
+    width: 100% ;
+    margin-left: 16px;
+  }
+  .about-title h2 {
+    font-size: 40px;
+  }
+
+  .features-text {
+    max-width: 800px; 
+  }
+  .features-section{
+    width: 95%;
+  }
+  .footer-section {
+    margin: 16px;
+  }
+
+  .footer-form{
+    margin: 16px;
+  }
+
+  .bootem {
+    margin: 16px;
+  }
+  .item {
+    margin-left: 16px;
+
+  }
+  .alxelie-image{
+    width:100%;
+    /* margin-left: 16px;
+    margin-right: 10px; */
+  }
+  .alxelie-image img{
+    width: 100% ;
+  }
+  .alxelie-text h2{
+    font-size: 40px;
+  }
+
+  /* .hero-text h1{
+    font-size: 65px;
+  } */
+
+  .footer-text h2 {
+    font-size: 40px;
+  }
+
+  .features-title h2{
+    font-size: 40px;
+  }
+
+  
+}
+
+  

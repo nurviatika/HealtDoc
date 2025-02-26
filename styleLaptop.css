@@ -1,4 +1,3 @@
-
 @media (max-width: 1024px) {
   .about-image{
     width:70%; 
@@ -34,8 +33,6 @@
   }
   .alxelie-image{
     width:100%;
-    /* margin-left: 16px;
-    margin-right: 10px; */
   }
   .alxelie-image img{
     width: 100% ;
@@ -43,10 +40,6 @@
   .alxelie-text h2{
     font-size: 40px;
   }
-
-  /* .hero-text h1{
-    font-size: 65px;
-  } */
 
   .footer-text h2 {
     font-size: 40px;

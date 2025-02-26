@@ -55,7 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
             clickable: true,
         },
         breakpoints: {
-            576: { slidesPerView: 1, spaceBetween: 10 },
+            1024: { slidesPerView: 3, spaceBetween: 60 },
         }
     });
+    
+    window.nextSlide = function () {
+        swiperFeatures.slideNext();
+    };
+    
+    window.prevSlide = function () {
+        swiperFeatures.slidePrev();
+    };
+   
 });
+
+
+

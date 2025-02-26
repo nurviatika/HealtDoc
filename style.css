@@ -4,10 +4,13 @@
 }
 
 header {
-  padding: 12px 0;
+  padding: 12px 12px;
   background: white;
   height: 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .navbar {
@@ -174,6 +177,7 @@ button.donwload-btn2 {
   flex: 1;
   margin: 0;
   mix-blend-mode: difference; /*blnd warna*/
+  max-width: 417px;
 }
 
 
@@ -198,7 +202,9 @@ button.donwload-btn2 {
   object-fit: contain;
   gap: 24px;
 }
-
+.swiper-slide .image-icon img {
+  width: 100%;
+}
 
 .about {
   display: flex;
@@ -214,7 +220,7 @@ button.donwload-btn2 {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 20px;
   margin-left: 16px;
 
 }
@@ -248,6 +254,7 @@ button.about-label {
   color: #050810;
   font-weight: 500;
   font-family: "Plus Jakarta Sans", sans-serif;
+  max-width: 578px;
 }
 
 .about-title p {
@@ -256,6 +263,7 @@ button.about-label {
   font-family: "Plus Jakarta Sans", sans-serif;
   display: flex;
   color: #8b919e;
+  max-width: 578px;
 }
 
 button.learn-more {
@@ -278,7 +286,6 @@ button.learn-more {
 .learn-more:hover {
   background: #747b8b;
 }
-
 
 .swiper-slide {
   display: flex;
@@ -336,6 +343,7 @@ button.features-label {
   color: #050810;
   font-weight: 500;
   font-family: "Plus Jakarta Sans", sans-serif;
+  
 }
 .features-title p {
   line-height: 22px;
@@ -368,7 +376,7 @@ button.features-label {
   font-weight: 100;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: flex-start; 
   text-align: start;
   justify-content: center;
 }
@@ -386,10 +394,6 @@ button.features-label {
   line-height: 22px;
   margin: 0;
 }
-
-
-
-
 
 .alxelie {
   display: flex;
@@ -450,40 +454,31 @@ button.alxelie-label {
   position: relative;
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content:flex-start;
   text-align: left;
-  padding: 120px 0;
   gap: 60px;
   align-items: center;
 }
 
-figure.healt-image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-figure.healt-image img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
+.halt-image-bg{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 20px;
 }
 
 .healt-content {
-  position: absolute;
-  height: 50%;
   max-height: 460px;
-  left: 10%;
   width: 40%;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
-  padding: 24px;
+  padding: 96px 32px;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
-  margin: auto;
   justify-content: center;
+  margin: 16px;
 }
 
 .healt-label {
@@ -539,6 +534,32 @@ figure.healt-image img {
   height: auto;
 }
 
+.card .card-content {
+  padding: 16px;
+
+}
+
+.card:hover .card-content p {
+  color: #ffffff;
+}
+
+.card-content h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  
+}
+
+.card-content p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+
+.card .card-title p {
+  color: #968e8e;
+
+}
+
+
 .team-title{
   padding: 0px 16px;
 }
@@ -574,19 +595,33 @@ figure.healt-image img {
   text-align: start;
   width: 100%;
   position: relative;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .card:hover .card-title {
-  height: 0px;
+  height: 25%;
   transition: all 500ms ease;
+  background: #BC9BFD;
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+
+.card:hover img{
+  opacity: 1;
+  transition: all 500ms ease;
+
 }
 
 .card img {
   width: 100%;
   border-radius: 16px;
+  opacity: 0;
+  transition: all 500ms ease;
 }
 .card-title {
   background-color: #ffffff;
+  transition: all 500ms ease;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -595,10 +630,14 @@ figure.healt-image img {
   display: flex;
   flex-direction: column;
 }
-
+.card:hover .card-text{
+  opacity: 0;
+  transition: all 500ms ease;
+}
 .card-text {
   margin-top: auto;
   color: #747b8b;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
@@ -651,6 +690,7 @@ figure.healt-image img {
 
 .blog-content {
   text-align: left;
+  gap: 16px;
 }
 
 .blog-content img {
@@ -743,6 +783,8 @@ footer {
   justify-content: space-between;
   gap: 29px;
   padding: 60px 0;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .footer-text h2 {
@@ -856,6 +898,7 @@ button.subcribe {
   line-height: 22px;
   letter-spacing: -0.2px;
   font-weight: 400px;
+  max-width: 326px;
 }
 
 .footer-logo {

@@ -65,6 +65,7 @@ button.donwload-btn2 {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 200;
   transition: 0.3s;
+  font-size:12px;
 }
 button.donwload-btn3 {
   background: #8246fb;
@@ -416,7 +417,6 @@ button.alxelie-label {
   padding: 4px 8px;
   display: flex;
   gap: 4px;
-  border-radius: 1000px;
   border-radius: 1000px;
   border: 1px solid #e3e5e8;
   background-color: unset; 

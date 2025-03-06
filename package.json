@@ -1,0 +1,25 @@
+{
+  "name": "web1",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurviatika/HealtDoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nurviatika/HealtDoc/issues"
+  },
+  "homepage": "https://github.com/nurviatika/HealtDoc#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

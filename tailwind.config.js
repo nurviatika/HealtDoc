@@ -2,6 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: "1.5rem",
+    },
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -17,24 +21,18 @@ export default {
         ungguMuda: "#BC9BFD",
         putih: "#FFFFFF",
         semiPutih: "#e3e5e8",
-        abuGelap:"#696F7D",
+        abuGelap: "#696F7D",
+        neutrayGray: "#FAFAFA",
+        hitam_dl: "#3A3E45",
+        abuPudar: "#BABDC5",
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "24px",
-          md: "48px",
-          lg: "72px",
-          xl: "120px",
-        },
-        
-      },
+
       screens: {
         sm: "425px",
         smd: "568px",
         md: "768px",
         mdlg: "990px",
-        lg: "1200px",
+        lg: "1024px",
         xl: "1440px",
       },
     },

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <title>Blog</title>
+</head>
+<body>
+    <header class="bg-putih shadow-md py-3 flex justify-center items-center relative">
+        <nav class="container flex justify-between items-center w-full">
+          <a href="/index.html">
+            <div class="flex items-center gap-2 font-bold text-hitam text-lg font-inter ">
+              <img src="/assets/logo.svg" alt="Logo" class="h-6">
+              <span>HealtDoc</span>
+          </div>
+          </a>
+            <ul class="hidden md:flex gap-6 text-abu text-sm font-jakarta">
+                <li><a href="/src/about.html" class="hover:text-hitam ">Aboutus</a></li>
+                <li><a href="/src/blog.html" class="hover:text-abu">Blog</a></li>
+                <li><a href="/src/contact.html" class="hover:text-abu text-hitam font-semibold">Contact</a></li>
+              </ul>
+              <button class="hidden font-jakarta md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda">
+                  <img src="/assets/apple.svg" alt="Apple Icon" class="h-4">
+                  Download App
+              </button>
+            <span id="menu-toggle" class="md:hidden flex flex-col justify-between h-5 w-7 cursor-pointer">
+                <span class="block w-7 h-[3px] bg-hitam transition"></span>
+                <span class="block w-7 h-[3px] bg-hitam transition"></span>
+                <span class="block w-7 h-[3px] bg-hitam transition"></span>
+            </span>
+        </nav>
+        <ul id="nav-links" class="md:hidden  fixed top-0 right-0 w-full h-[69vh] bg-putih shadow-lg py-8 text-abu text-sm font-medium transform translate-x-full transition-transform z-[20]">
+            <span id="close-menu" class="absolute top-4 right-6 w-6 h-6 cursor-pointer flex items-center justify-center">
+                <span class="block w-6 h-[3px] bg-hitam rotate-45 absolute"></span>
+                <span class="block w-6 h-[3px] bg-hitam -rotate-45 absolute"></span>
+            </span>
+    
+            <li><a href="/src/about.html" class="block px-6 py-3 hover:bg-semiPutih">Aboutus</a></li>
+            <li><a href="/src/blog.html" class="block px-6 py-3 hover:bg-semiPutih">Blog</a></li>
+            <li><a href="/src/contact.html" class="block px-6 py-3 hover:bg-semiPutih">Contact</a></li>
+            <button class="flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda mx-6 mt-4 font-jakarta">
+                <img src="/assets/apple.svg" alt="Apple Icon" class="h-4">
+                Download App
+            </button>
+        </ul>
+    </header>
+
+    <section class="container  md:flex-col flex-row  gap-10 pb-20 pt-[100px]  md:w-[746.08px] w-[343px] px-4 md:PX-[346.96PX]">
+        <div>
+            <img src="/assets/404.png">
+        </div>
+        <div class="flex flex-col items-center py-8 ">
+            <h3 class="font-normal md:text-[40px] text-xl font-jakarta leading-8 tracking-tight pb-4 md:w-[623px] w-[343px] text-center">Looks like this page doesn't exist!</h3>
+            <p class="text-sm text-gray-500 w-[382px] text-center">Go back to home and contunue exploring</p>
+        </div>
+        <a href="/index.html">
+            <div class="flex justify-center">
+                <button class="md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda">
+                    Back to Home
+                </button>
+            </div>
+        </a>
+    </section>
+
+    <footer class="bg-hitam rounded-3xl m-[10px]">
+      <div class="container mx-auto flex flex-col gap-3 text-putih">
+        <div
+          class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8"
+        >
+          <div class="font-jakarta">                                                                                                                                                                                    
+            <h2 class="md:text-[64px] text-[40px] font-light">Join Our News <br />letter</h2>
+            <p class="text-semiAbu text-[16px]">Up to date with everything</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-[16px] text-semiPutih font-jakarta">Subscribe</h3>
+            <div class="flex gap-2 md:flex-row flex-col">
+              <input
+                type="email"
+                placeholder="Your email"
+                class="p-2 md:w-64  bg-transparent border border-semiAbu rounded-[100px] text-putih font-helvetica"
+              />
+              <button class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-jakarta">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-between border-t border-abuGelap pt-5"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <img src="/assets/logo.svg" alt="HealthDoc Logo" class="w-6" />
+              <span class="text-lg font-semibold font-inter">HealthDoc</span>
+            </div>
+            <p class="text-semiAbu max-w-md font-jakarta ">
+              Empowering your projects with innovative design and tailored
+              solutions that bring your ideas to life.
+            </p>
+            <div class="flex gap-4">
+              <img
+                src="/assets/instagram(1).svg"
+                alt="Instagram"
+                class="w-6 cursor-pointer"
+              />
+              <img
+                src="/assets/linkedin(1).svg"
+                alt="LinkedIn"
+                class="w-6 cursor-pointer"
+              />
+              <img
+                src="/assets/discord(2).svg"
+                alt="Discord"
+                class="w-6 cursor-pointer"
+              />
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-6 text-semiAbu font-jakarta text-lg mt-[16px]">
+            <a href="#" class="hover:text-putih">About us</a>
+            <a href="#" class="hover:text-putih">Testimonial</a>
+            <a href="#" class="hover:text-putih">Blog</a>
+            <a href="#" class="hover:text-putih">Contact</a>
+            <a href="#" class="hover:text-putih">Download</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4 font-jakarta">
+          <p>&copy; HealthDoc 2024</p>
+          <div class="flex gap-4">
+            <p class="hover:text-putih cursor-pointer">Term of use</p>
+            <p class="hover:text-putih cursor-pointer">Privacy policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <script src="/src/menu.js"></script>
+</body>
+</html>

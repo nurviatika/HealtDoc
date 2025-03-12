@@ -1,4 +1,4 @@
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .logo{
       gap: 8px;
       padding: 7px;
@@ -74,6 +74,7 @@
     .section-text p {
       max-width:unset;
       width: 100%;
+      padding-bottom: 10px;
     }
   
     .hero-text{
@@ -86,6 +87,7 @@
       font-weight: 400;
       line-height: 60px;
       letter-spacing: -0.2px;
+      padding: 24px 0px;
     }  
 
     .hero-image{
@@ -134,11 +136,15 @@
 
     .feat-item{
       padding: 0px 16px;
+      width: 80%;
+     
+      
     }
 
     .features{
       flex-direction: column;
       align-items: flex-start;
+      padding: 40px 0px;
     }
     .features-title{
       width: 100%;
@@ -154,7 +160,8 @@
       width: 90%;
     }
     .features-text {
-      max-width: 500px; 
+      /* max-width: 500px;  */
+      width: 350px;
     }
   
     .features-icon {
@@ -165,8 +172,10 @@
     }
 
     .alxelie{
-      flex-direction: column-reverse;
+      flex-direction: column;
       align-items: flex-start;
+      padding: 40px 0;
+      gap: 24px;
     }
 
     .alxelie-title {
@@ -184,8 +193,10 @@
     }
 
     .alxelie-text h2{
-      font-size: 48px;
+      font-size: 32px;
+      padding-bottom: 20px;
     }
+
 
     .healt {
       position: relative;
@@ -211,7 +222,10 @@
   
     .healt-content {
       width: 80%;
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(8px);
+      height: 518px;
+      padding: 16px 16px;
+      
     }
   
     .healt-label {
@@ -221,11 +235,13 @@
     }
   
     .healt-content h2 {
-      font-size: 22px;
+      font-size: 32px;
+      font-weight: 400;
     }
   
     .healt-content p {
-      font-size: 14px;
+      font-size: 16px;
+      mix-blend-mode: difference;
     }
   
     .donwload-btn {
@@ -257,14 +273,22 @@
 
     }
 
+    .team-section {
+      padding:40px 0px;
+    } 
+
     .team-title h2{
       font-size: 32px;
+    }
+
+    .blog {
+      padding: 50px 0px;
     }
     
 
     .blog-text h2 {
-      font-size: 42px ;
-      font-weight: 400;
+      font-size: 32px ;
+      font-weight: 500;
     }
 
     .blog-text{
@@ -292,6 +316,7 @@
     .email-input{
       background: none;
       border: 1px solid rgb(135, 133, 133);
+      width: 150%;
       
     }
     .item{
@@ -311,7 +336,7 @@
     }
 
     .bootem {
-      margin-left: 30px;
+      padding-top: 30px;
 
     }
     .bootem-text {
@@ -320,4 +345,14 @@
     .icon-title p{
       width: 100%;
     }
+
+    .subs {
+      width: 271%;
+    }
+
+    .footer-item {
+      padding-top: 32px;
+    }
+
+
   }

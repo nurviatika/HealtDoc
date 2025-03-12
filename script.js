@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             clickable: true,
         },
         breakpoints: {
-            1024: { slidesPerView: 3, spaceBetween: 60 },
+            1024: { slidesPerView: 3, spaceBetween: 32 },
         }
     });
     

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="in">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <title>Detail</title>
+  </head>
+  <body>
+    <header
+      class="bg-putih shadow-md py-3 flex justify-center items-center relative">
+      <nav class="container flex justify-between items-center w-full">
+        <a href="/index.html">
+          <div
+            class="flex items-center gap-2 font-bold text-hitam text-lg font-inter">
+            <img src="/assets/logo.svg" alt="Logo" class="h-6" />
+            <span>HealtDoc</span>
+          </div>
+        </a>
+        <ul class="hidden md:flex gap-6 text-abu text-sm font-jakarta">
+          <li>
+            <a href="/src/about.html" class="hover:text-hitam">Aboutus</a>
+          </li>
+          <li>
+            <a
+              href="/src/blog.html"
+              class="hover:text-abu text-hitam font-semibold"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="/src/contact.html" class="hover:text-hitam">Contact</a>
+          </li>
+        </ul>
+        <button
+          class="hidden md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda"
+        >
+          <img src="/assets/apple.svg" alt="Apple Icon" class="h-4" />
+          Download App
+        </button>
+        <span
+          id="menu-toggle"
+          class="md:hidden flex flex-col justify-between h-5 w-7 cursor-pointer"
+        >
+          <span class="block w-7 h-[3px] bg-hitam transition"></span>
+          <span class="block w-7 h-[3px] bg-hitam transition"></span>
+          <span class="block w-7 h-[3px] bg-hitam transition"></span>
+        </span>
+      </nav>
+      <ul
+        id="nav-links"
+        class="md:hidden fixed top-0 right-0 w-full h-[69vh] bg-putih shadow-lg py-8 text-abu text-sm font-medium transform translate-x-full transition-transform z-[20]"
+      >
+        <span
+          id="close-menu"
+          class="absolute top-4 right-6 w-6 h-6 cursor-pointer flex items-center justify-center"
+        >
+          <span class="block w-6 h-[3px] bg-hitam rotate-45 absolute"></span>
+          <span class="block w-6 h-[3px] bg-hitam -rotate-45 absolute"></span>
+        </span>
+
+        <li>
+          <a href="/src/about.html" class="block px-6 py-3 hover:bg-semiPutih"
+            >Aboutus</a
+          >
+        </li>
+        <li>
+          <a href="/src/blog.html" class="block px-6 py-3 hover:bg-semiPutih"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a href="/src/contact.html" class="block px-6 py-3 hover:bg-semiPutih"
+            >Contact</a
+          >
+        </li>
+        <button
+          class="flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda mx-6 mt-4"
+        >
+          <img src="/assets/apple.svg" alt="Apple Icon" class="h-4" />
+          Download App
+        </button>
+      </ul>
+    </header>
+
+    <section class="container flex md:flex-col flex-col md:pb-20 pb-10">
+      <div class="md:pb-10 md:pt-20 py-10">
+        <img
+          src="/assets/Image_detail(1).png"
+          class="md:w-full rounded-[38px] h-[338px] md:h-[557px] object-cover object-center"/>
+      </div>
+
+      <div class="grid grid-cols-12 gap-8">
+        <div class="firtsh-card-detail col-span-12 lg:col-span-8 md:flex-row flex-col">
+          <div class="text-left">
+            <div>
+              <h3
+                class="font-normal md:text-5xl text-[32px] leading-[60px] tracking-tighter font-jakarta text-hitam">
+                How to use the HaloDoc Application
+              </h3>
+            </div>
+            <div class="flex gap-3 items-start md:pt-6 md:pb-4 py-6">
+              <span
+                class="border border-gray-400 text-gray-800 rounded-full text-base font-medium px-2">
+                General
+              </span>
+              <span class="text-gray-500 text-base font-medium">
+                Des 24, 2024
+              </span>
+            </div>
+            <div>
+              <p class="text-[16px] font-jakarta text-hitam_dl">
+                We are proud to collaborate with some of the world's most
+                renowned institutions to revolutionize the healthcare industry.
+                Together, we are harnessing the power of cutting-edge AI
+                technology to enhance patient care, streamline health management
+                processes, and pave the way for a future where innovation drives
+                better health outcomes for all.
+              </p>
+            </div>
+            <img
+              src="/assets/Image_detail(2).png"
+              alt="AI-Powered Health"
+              class="w-full rounded-lg py-6"
+            />
+            <div>
+              <p class="text-[16px] font-jakarta text-hitam_dl pb-6">
+                We are proud to collaborate with some of the world's most
+                renowned institutions to revolutionize the healthcare industry.
+                Together, we are harnessing the power of cutting-edge AI
+                technology to enhance patient care, streamline health management
+                processes, and pave the way for a future where innovation drives
+                better health outcomes for all.We are proud to collaborate with
+                some of the world's most renowned institutions to revolutionize
+                the healthcare industry. Together, we are harnessing the power
+                of cutting-edge AI technology to enhance patient care,
+                streamline health management processes, and pave the way for a
+                future where innovation drives better health outcomes for all.We
+                are proud to collaborate with some of the world's most renowned
+                institutions to revolutionize the healthcare industry. Together,
+                we are harnessing the power of cutting-edge AI technology to
+                enhance patient care, streamline health management processes,
+                and pave the way for a future where innovation drives better
+                health outcomes for all.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-4 flex flex-col md:flex-col">
+          <a href="/src/blog.html">
+            <div class="flex-row gap-5 flex mb-10">
+              <img
+                src="/assets/Image-blog1.png"
+                alt="blog image1"
+                class="rounded-lg w-[125px] h-[125px]"
+              />
+              <div class="flex-row">
+                <div class="flex gap-3 items-start flex-wrap">
+                  <span
+                    class="border border-gray-400 text-gray-800 rounded-full text-base font-medium px-2"
+                  >
+                    General
+                  </span>
+                  <span class="text-gray-500 text-base font-medium">
+                    Des 24, 2024
+                  </span>
+                </div>
+                <div>
+                  <h3
+                    class="font-semibold text-xl leading-8 tracking-tight pb-2 pt-4"
+                  >
+                    Partnerships for Smarter Healthcare
+                  </h3>
+                  <p class="text-sm text-gray-500">
+                    We’ve partnered with leading institutions to bring AI...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="flex-row gap-5 flex mb-10">
+            <img
+              src="/assets/Image-blog2.png"
+              alt="blog image1"
+              class="rounded-lg w-[125px] h-[125px]"
+            />
+            <div class="flex-row">
+              <div class="flex gap-3 items-start">
+                <span
+                  class="border border-gray-400 text-gray-800 rounded-full text-base font-medium px-2"
+                >
+                  General
+                </span>
+                <span class="text-gray-500 text-base font-medium">
+                  Des 24, 2024
+                </span>
+              </div>
+              <div>
+                <h3
+                  class="font-semibold text-xl leading-8 tracking-tight pb-2 pt-4"
+                >
+                  AI-Powered Health Monitoring Tools
+                </h3>
+                <p class="text-sm text-gray-500">
+                  Discover the future of health tracking with AI-drive...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-row gap-5 flex mb-10">
+            <img
+              src="/assets/Image-blog3.png"
+              alt="blog image1"
+              class="rounded-lg w-[125px] h-[125px]"
+            />
+            <div class="flex-row">
+              <div class="flex gap-3 items-start">
+                <span
+                  class="border border-gray-400 text-gray-800 rounded-full text-base font-medium px-2"
+                >
+                  Application
+                </span>
+                <span class="text-gray-500 text-base font-medium">
+                  Des 24, 2024
+                </span>
+              </div>
+              <div>
+                <h3
+                  class="font-semibold text-xl leading-8 tracking-tight pb-2 pt-4"
+                >
+                  The Launch of AI Health Scanner
+                </h3>
+                <p class="text-sm text-gray-500">
+                  Introducing our AI health scanner, a tool designe...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start pt-5">
+            <button
+              class="text-gray-500 text-base font-medium flex flex-row-reverse"
+            >
+              <img src="/assets/learn-more.svg" class="items-end" />
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-hitam rounded-3xl m-[10px]">
+      <div class="container mx-auto flex flex-col gap-3 text-putih">
+        <div class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8">
+          <div class="font-jakarta">
+            <h2 class="md:text-[64px] text-[40px] font-light">
+              Join Our News <br />letter
+            </h2>
+            <p class="text-semiAbu text-[16px]">Up to date with everything</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-[16px] text-semiPutih font-jakarta">Subscribe</h3>
+            <div class="flex gap-2 md:flex-row flex-col">
+              <input
+                type="email"
+                placeholder="Your email"
+                class="p-2 md:w-64 bg-transparent border border-semiAbu rounded-[100px] text-putih font-helvetica"
+              />
+              <button
+                class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-jakarta"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-between border-t border-abuGelap pt-5"
+        >
+          <div class="flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <img src="/assets/logo.svg" alt="HealthDoc Logo" class="w-6" />
+              <span class="text-lg font-semibold font-inter">HealthDoc</span>
+            </div>
+            <p class="text-semiAbu max-w-md font-jakarta">
+              Empowering your projects with innovative design and tailored
+              solutions that bring your ideas to life.
+            </p>
+            <div class="flex gap-4">
+              <img
+                src="/assets/instagram(1).svg"
+                alt="Instagram"
+                class="w-6 cursor-pointer"
+              />
+              <img
+                src="/assets/linkedin(1).svg"
+                alt="LinkedIn"
+                class="w-6 cursor-pointer"
+              />
+              <img
+                src="/assets/discord(2).svg"
+                alt="Discord"
+                class="w-6 cursor-pointer"
+              />
+            </div>
+          </div>
+
+          <div
+            class="flex flex-wrap gap-6 text-semiAbu font-jakarta text-lg mt-[16px]"
+          >
+            <a href="#" class="hover:text-putih">About us</a>
+            <a href="#" class="hover:text-putih">Testimonial</a>
+            <a href="#" class="hover:text-putih">Blog</a>
+            <a href="#" class="hover:text-putih">Contact</a>
+            <a href="#" class="hover:text-putih">Download</a>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4 font-jakarta"
+        >
+          <p>&copy; HealthDoc 2024</p>
+          <div class="flex gap-4">
+            <p class="hover:text-putih cursor-pointer">Term of use</p>
+            <p class="hover:text-putih cursor-pointer">Privacy policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/src/menu.js"></script>
+  </body>
+</html>

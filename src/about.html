@@ -16,9 +16,9 @@
         </div>
         </a>
           <ul class="hidden md:flex gap-6 text-abu text-sm font-jakarta">
-              <li><a href="#" class="hover:text-abu text-hitam font-semibold">Aboutus</a></li>
-              <li><a href="#" class="hover:text-hitam">Blog</a></li>
-              <li><a href="#" class="hover:text-hitam">Contact</a></li>
+              <li><a href="/src/about.html" class="hover:text-abu text-hitam font-semibold">Aboutus</a></li>
+              <li><a href="/src/blog.html" class="hover:text-hitam">Blog</a></li>
+              <li><a href="/src/contact.html" class="hover:text-hitam">Contact</a></li>
             </ul>
             <button class="hidden md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda">
                 <img src="/assets/apple.svg" alt="Apple Icon" class="h-4">
@@ -36,9 +36,9 @@
               <span class="block w-6 h-[3px] bg-hitam -rotate-45 absolute"></span>
           </span>
   
-          <li><a href="/src/about.html" class="block px-6 py-3 hover:bg-semiPutih">About Us</a></li>
-          <li><a href="#" class="block px-6 py-3 hover:bg-semiPutih">Blog</a></li>
-          <li><a href="#" class="block px-6 py-3 hover:bg-semiPutih">Contact</a></li>
+          <li><a href="/src/about.html" class="block px-6 py-3 hover:bg-semiPutih">Aboutus</a></li>
+          <li><a href="/src/blog.html" class="block px-6 py-3 hover:bg-semiPutih">Blog</a></li>
+          <li><a href="/src/contact.html" class="block px-6 py-3 hover:bg-semiPutih">Contact</a></li>
           <button class="flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda mx-6 mt-4">
               <img src="/assets/apple.svg" alt="Apple Icon" class="h-4">
               Download App
@@ -46,45 +46,48 @@
       </ul>
   </header>
   
-    <section
-    class="container flex flex-col justify-center text-left relative pb-[80px] pt-[60px] md:flex-row">
-      <div class="flex gap-5 md:flex-row flex-col">
+  <section class="container flex flex-col justify-start text-left relative py-6 md:pb-[80px] md:pt-[60px] md:flex-row">
+    <div class="flex gap-5 md:flex-row flex-col justify-between w-full">
+      <div class="max-w-[660px]">
         <div>
-          <div>
-            <button
-              class="rounded-full font-helvetica flex gap-1 text-hitam px-2 py-1 bg-transparent border border-semiPutih">
-              <img
-                src="/assets/titik.svg"
-                alt="image titik"
-                class="flex justify-center w-2 text-[16px]"/>
-              <span>About Us</span>
-            </button>
-          </div>
-          <div>
-            <h1
-              class="text-5xl  mdlg:text-7xl lg:text-[107px] md:text-6xl text-hitam font-normal font-jakarta justify-start pt-5">
-              Meet With Our team
-            </h1>
-          </div>
+          <button
+            class="rounded-full font-helvetica flex gap-1 text-hitam px-2 py-1 bg-transparent border border-semiPutih">
+            <img
+              src="/assets/titik.svg"
+              alt="image titik"
+              class="flex justify-center w-2 text-[16px]"
+            />
+            <span>Our Blog</span>
+          </button>
         </div>
-        <div class="flex">
-          <div class="flex gap-2 items-end justify-end">
-            <p class="font-jakarta text-base font-normal leading-[22px] tracking-tight text-abu flex items-end justify-between w-[368px] max-w-[324px]">
-              Collaborate with technology that transforms your aspirations into exceptional results, seamlessly and effectively
-            </p>
-          </div>
+        <div>
+          <h1
+            class="text-5xl md:text-8xl text-hitam font-normal font-jakarta justify-start pt-5">
+            Latest News Updates
+          </h1>
         </div>
       </div>
-    </section>
+      <div class="flex">
+        <div class="flex gap-2 items-end justify-end">
+          <p
+            class="font-jakarta text-base font-normal leading-[22px] tracking-tight text-abu flex items-end justify-between w-[368px] max-w-[324px]"
+          >
+            Explore insights and trends that drive innovation in the
+            healthcare industry
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="container flex flex-col md:flex-row gap-[60px] md:py-[120px] py-10">
-      <div class="flex flex-col md:w-[50%] w-full">
-        <div class="pr-0 flex flex-row md:flex-row gap-6">
-          <div class="md:w-[258px] w-[50%] ">
+    <section class="container flex flex-col md:flex-row md:gap-[60px] md:py-[120px] py-10">
+      <div class="flex flex-col ">
+        <div class="pr-0 flex flex-row md:flex-row gap-6  bg-neutrayGray rounded-xl">
+          <div>
             <img src="/assets/Side Left.png" alt="image side" class="mr-4" />
           </div>
           <div class="flex flex-col justify-between ">
-            <h2 class="mdlg:text-[64px] text-[38px] font-semibold font-jakarta">300+</h2>
+            <h2 class="md:text-[64px] text-[38px] font-semibold font-jakarta">300+</h2>
             <div class="flex gap-3 flex-col">
               <h3 class="text-xl font-normal font-jakarta">Truster User</h3>
               <p class="text-semiAbu text-sm font-normal font-jakarta">User Preview</p>
@@ -113,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="mt-[38px] flex items-end relative">
+        <div class="mt-2 flex items-end relative bg-neutrayGray rounded-xl">
           <div class="md:w-[60%] w-[59%] ">
             <h2 class="md:text-[48px] text-[28.48px] font-light font-jakarta text-hitam">
               Application health #1
@@ -129,23 +132,23 @@
         </div>
       </div>
 
-      <div class="md:w-[50%] w-full flex flex-col justify-between">
-        <h2 class="text-hitam font-jakarta mdlg:text-[64px] md:text-[45px] text-[32px] pb-6">
+      <div class="flex flex-col justify-between pt-6">
+        <h2 class="text-hitam font-jakarta md:text-[64px] text-[32px] pb-6">
           Revolutionizing Your Health with
           <span class="text-semiAbu"> AI-Powered Care</span>
         </h2>
         <div class="flex justify-between">
-          <div>
-            <h3 class="mdlg:text-5xl md:text-4xl text-[32px] font-medium text-hitam">100</h3>
-            <p class="mdlg:text-base md:text-sm text-xs text-semiAbu">Our Partners</p>
+          <div class="font-jakarta">
+            <h3 class="md:text-5xl text-[32px] font-medium text-hitam">100</h3>
+            <p class=" md:text-base text-xs text-semiAbu">Our Partners</p>
           </div>
-          <div>
-            <h3 class="mdlg:text-5xl md:text-4xl  text-[32px] font-medium text-hitam">50+</h3>
-            <p class="mdlg:text-base  md:text-sm text-xs text-semiAbu">Doctor Specialist</p>
+          <div class="font-jakarta">
+            <h3 class="md:text-5xl  text-[32px] font-medium text-hitam">50+</h3>
+            <p class="md:text-base text-xs text-semiAbu">Doctor Specialist</p>
           </div>
-          <div>
-            <h3 class="mdlg:text-5xl md:text-4xl  text-[32px] font-medium text-hitam">100k</h3>
-            <p class="mdlg:text-base md:text-sm text-xs text-semiAbu">Positive Review</p>
+          <div class="font-jakarta">
+            <h3 class=" md:text-5xl  text-[32px] font-medium text-hitam">100k</h3>
+            <p class=" md:text-base text-xs text-semiAbu">Positive Review</p>
           </div>
         </div>
       </div>
@@ -154,7 +157,7 @@
     <section class="container flex text-left gap-[60px] flex-col md:flex-row md:py-[120px] py-10">
       <div class="flex gap-5">
         <div class="grid grid-cols-12">
-          <div class="mdlg:col-span-2 col-span-12 ">
+          <div class="md:col-span-2 col-span-12 ">
             <button
               class="rounded-full font-jakarta flex gap-1 text-hitam px-2 py-1 bg-transparent border border-semiPutih">
               <img
@@ -167,7 +170,7 @@
           </div>
           <div class="flex flex-col gap-6 md:col-span-10 col-span-12">
             <h2
-              class="text-8xl text-hitam font-normal font-jakarta mdlg:text-[64px] md:text-[55px] text-[32px] mt-[24px] md:mt-0"
+              class="text-8xl text-hitam font-normal font-jakarta md:text-[64px] text-[32px] mt-[24px] md:mt-0"
             >
               Choose us for reliable, innovative healthcare solutions
               <span class="text-semiAbu">
@@ -176,8 +179,7 @@
             </h2>
             <div class="flex items-start">
               <button
-                class="bg-unggu flex text-putih px-5 py-2 rounded-full items-center gap-2 transition duration-300 hover:bg-ungguMuda"
-              >
+                class="bg-unggu flex text-putih px-5 py-2 rounded-full items-center gap-2 transition duration-300 hover:bg-ungguMuda font-jakarta">
                 <img src="/assets/apple.svg" alt="Apple Icon" />
                 <span>Download App </span>
               </button>
@@ -187,9 +189,7 @@
       </div>
     </section>
 
-    <section
-      class="container flex flex-col items-center text-center md:py-[120px] py-10"
-    >
+    <section class="container flex flex-col items-center text-center md:py-[120px] py-10">
       <div class="w-[100%]">
         <div class="flex justify-center">
           <img src="/assets/logo.svg" alt="logo" class="w-12" />
@@ -198,7 +198,7 @@
 
       <div class="py-0 px-4 mt-10">
         <h2
-          class="mdlg:text-[64px] md:text-[55px] text-[32px] tracking-tight font-normal text-hitam font-jakarta">
+          class="md:text-[64px] text-[32px] tracking-tight font-normal text-hitam font-jakarta">
           We create innovative solutions that transform the healthcare industry.
         </h2>
         <p class="text-semiAbu md:text-base text-[16px] tracking-tight font-jakarta mt-[10px]">
@@ -209,7 +209,7 @@
       </div>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-1 mdlg:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 justify-start gap-2 mt-10"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-start gap-5 mt-10 w-[100%] px-4"
       >
         <div
           class="relative w-full rounded-2xl font-jakarta group overflow-hidden"
@@ -220,7 +220,7 @@
             class="w-full rounded-2xl opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
           />
           <div
-            class="absolute bottom-0 left-0 w-full h-full bg-putih items-start transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih rounded-2xl"
+            class="bg-neutrayGray rounded-xl absolute bottom-0 left-0 w-full h-full  items-start transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih "
           >
             <div class="p-4">
               <h3 class="text-lg font-bold">Dr. Vinayak Kambale</h3>
@@ -238,8 +238,7 @@
             src="/assets/cardBaru.png"
             alt="Dr. Angelina Jol"
             class="w-full rounded-2xl opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"/>
-          <div
-            class="absolute bottom-0 left-0 w-full h-full items-start bg-putih transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih rounded-2xl"
+          <div class="bg-neutrayGray rounded-xl absolute bottom-0 left-0 w-full h-full  items-start transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih "
           >
             <div class="p-4">
               <h3 class="text-lg font-bold">Dr. Cameron Desy</h3>
@@ -260,8 +259,7 @@
             alt="Dr. Angelina Jol"
             class="w-full rounded-2xl opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
           />
-          <div
-            class="absolute bottom-0 left-0 w-full h-full items-start bg-putih transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih rounded-2xl"
+          <div class="bg-neutrayGray rounded-xl absolute bottom-0 left-0 w-full h-full  items-start transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih "
           >
             <div class="p-4">
               <h3 class="text-lg font-bold text-left">Dr. Chelcia</h3>
@@ -282,8 +280,7 @@
             alt="Dr. Angelina Jol"
             class="w-full rounded-2xl opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
           />
-          <div
-            class="absolute bottom-0 left-0 w-full h-full items-start bg-putih transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih rounded-2xl"
+          <div class="bg-neutrayGray rounded-xl absolute bottom-0 left-0 w-full h-full  items-start transition-all duration-500 ease-in-out flex flex-col group-hover:h-1/4 group-hover:bg-ungguMuda group-hover:text-putih "
           >
             <div class="p-4">
               <h3 class="text-lg font-bold">Dr. Angelina Jol</h3>
@@ -299,24 +296,24 @@
       </div>
     </section>
 
-    <footer class="bg-hitam rounded-3xl p-6 mt-2">
-      <div class="container mx-auto flex flex-col gap-14 text-putih">
+    <footer class="bg-hitam rounded-3xl m-[10px]">
+      <div class="container mx-auto flex flex-col gap-3 text-putih">
         <div
           class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8"
         >
-          <div>
-            <h2 class="mdlg:text-[64px] text-[40px] font-light">Join Our News <br />letter</h2>
+          <div class="font-jakarta">                                                                                                                                                                                    
+            <h2 class="md:text-[64px] text-[40px] font-light">Join Our News <br />letter</h2>
             <p class="text-semiAbu text-[16px]">Up to date with everything</p>
           </div>
           <div class="flex flex-col gap-2">
-            <h3 class="text-[16px] text-semiPutih">Subscribe</h3>
+            <h3 class="text-[16px] text-semiPutih font-jakarta">Subscribe</h3>
             <div class="flex gap-2 md:flex-row flex-col">
               <input
                 type="email"
                 placeholder="Your email"
                 class="p-2 md:w-64  bg-transparent border border-semiAbu rounded-[100px] text-putih font-helvetica"
               />
-              <button class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-helvetica">
+              <button class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-jakarta">
                 Subscribe
               </button>
             </div>
@@ -329,9 +326,9 @@
           <div class="flex flex-col gap-4">
             <div class="flex items-center gap-3">
               <img src="/assets/logo.svg" alt="HealthDoc Logo" class="w-6" />
-              <span class="text-lg font-semibold">HealthDoc</span>
+              <span class="text-lg font-semibold font-inter">HealthDoc</span>
             </div>
-            <p class="text-semiAbu max-w-md ">
+            <p class="text-semiAbu max-w-md font-jakarta ">
               Empowering your projects with innovative design and tailored
               solutions that bring your ideas to life.
             </p>
@@ -363,9 +360,7 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4"
-        >
+        <div class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4 font-jakarta">
           <p>&copy; HealthDoc 2024</p>
           <div class="flex gap-4">
             <p class="hover:text-putih cursor-pointer">Term of use</p>

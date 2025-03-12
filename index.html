@@ -1,399 +1,496 @@
 <!DOCTYPE html>
 <html lang="in">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HealtDoc</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleMobile.css">
-    <link rel="stylesheet" href="styleLaptop.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleLaptop.css" />
+    <link rel="stylesheet" href="styleMobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Coiny&family=Concert+One&family=Cormorant+Upright:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lemon&family=Lilita+One&family=Lily+Script+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chela+One&family=Coiny&family=Concert+One&family=Cormorant+Upright:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lemon&family=Lilita+One&family=Lily+Script+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="container navbar">
-            <div class="logo">
-                <img src="/assets/logo.svg">
-                <span>
-                    HealtDoc
-                </span>
-            </div>
-            <ul class="nav-links">
-            <!-- <ul class="nav-links active"> -->
-                <li><a href="/src/about.html">Aboutus</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <button  class="donwload-btn2">
-                    <img src="/assets/apple.svg">
-                    Donwload App
-                </button>
-            </ul>
-            <button  class="donwload-btn">
-                <img src="/assets/apple.svg">
-                Donwload App
-            </button>
-            <div class="menu-toggle ">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+      <nav class="container navbar">
+        <div class="logo">
+          <img src="/assets/logo.svg" />
+          <span> HealtDoc </span>
+        </div>
+        <ul class="nav-links">
+          <!-- <ul class="nav-links active"> -->
+          <li><a href="/src/about.html">Aboutus</a></li>
+          <li><a href="/src/blog.html">Blog</a></li>
+          <li><a href="/src/contact.html">Contact</a></li>
+          <button class="donwload-btn2">
+            <img src="/assets/apple.svg" />
+            Donwload App
+          </button>
+        </ul>
+        <button class="donwload-btn">
+          <img src="/assets/apple.svg" />
+          Donwload App
+        </button>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </header>
 
     <section class="hero container">
-        <div class="hero-text">
-            <h1> A powerful virtual assistant with <span>AI Power</span></h1>
+      <div class="hero-text">
+        <h1>A powerful virtual assistant with <span>AI Power</span></h1>
+      </div>
+      <div class="hero-image">
+        <img src="/assets/iPhone 14 Pro - FREE.png" alt="AI Mockup" />
+      </div>
+      <div class="hero-section .transparent-box">
+        <div class="section-text">
+          <p>
+            Collaboratewithtechnologythattransformsyour
+            aspirationsintoexceptionalresults, seamlessly and effectively.
+          </p>
+          <button class="donwload-btn3">
+            <img src="/assets/apple.svg" />
+            Donwload App
+          </button>
         </div>
-        <div class="hero-image">
-            <img src="/assets/iPhone 14 Pro - FREE.png" alt="AI Mockup">
-        </div>
-        <div class="hero-section .transparent-box">
-            <div class="section-text ">
-                <p>Collaboratewithtechnologythattransformsyour aspirationsintoexceptionalresults, seamlessly and effectively. </p>
-                <button  class="donwload-btn3">
-                    <img src="/assets/apple.svg">
-                    Donwload App
-                </button>
-            </div>
-        </div>
+      </div>
     </section>
-    
+
     <section class="frame container">
-        <div class="frame-image swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="/assets/Company logo.svg" alt="endo"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (1).svg" alt="uprok"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (2).svg" alt="slack"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (3).svg" alt="figma"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (4).svg" alt="miro"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (5).svg" alt="canva"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (6).svg" alt="drible"></div>
-                <div class="swiper-slide"><img src="/assets/Company logo (7).svg" alt="github"></div>
-            </div>
+      <div class="frame-image swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/Company logo.svg" alt="endo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (1).svg" alt="uprok" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (2).svg" alt="slack" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (3).svg" alt="figma" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (4).svg" alt="miro" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (5).svg" alt="canva" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (6).svg" alt="drible" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Company logo (7).svg" alt="github" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="about container">
-        <div class="about-text">
-            <div class="label">
-                <button class="about-label">
-                    <img src="/assets/titik.svg">AboutUs
-                </button>
-            </div>
-            <div class="about-title">
-                <h2> Culsuntation with a good Doctor </h2>
-                <p> Experience the perfect blend of advanced AI technology and human expertise. Our platform connects you with professional doctors to provide personalized and efficient healthcare solutions, ensuring your well-being is always a priority </p>
-            </div>
-            <div class="button-learmore">
-                <button class="learn-more "> learn more
-                </button>
-            </div>
+      <div class="about-text">
+        <div class="label">
+          <button class="about-label">
+            <img src="/assets/titik.svg" />AboutUs
+          </button>
         </div>
-        <div class="about-image">
-            <img src="/assets/about.png">
+        <div class="about-title">
+          <h2>Culsuntation with a good Doctor</h2>
+          <p>
+            Experience the perfect blend of advanced AI technology and human
+            expertise. Our platform connects you with professional doctors to
+            provide personalized and efficient healthcare solutions, ensuring
+            your well-being is always a priority
+          </p>
         </div>
+        <div class="button-learmore">
+          <button class="learn-more">learn more</button>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="/assets/about.png" />
+      </div>
     </section>
 
     <section class="features container">
-        <div class="features-section ">
-            <div class="features-text">
-                <div class="label">
-                    <button class="features-label">
-                        <img src="/assets/titik.svg">Features
-                    </button>  
-                </div>
-                
-                <div class="features-title">
-                    <h2>Our Approach to Design and AI</h2>
-                    <p> Revolutionizing your experience with innovative features that blend intelligent AI and user- centric design, empowering you to achieve more effortlessly</p>
-                </div>
-            </div>
-            
-            <div class="features-icon">
-                <img src="/assets/Icon Button(kanan).svg"onclick="nextSlide()" alt="Next">
-                <img src="/assets/Icon Button(kiri).svg"onclick="prevSlide()" alt="Previous">
-            </div>
+      <div class="features-section">
+        <div class="features-text">
+          <div class="label">
+            <button class="features-label">
+              <img src="/assets/titik.svg" />Features
+            </button>
+          </div>
+
+          <div class="features-title">
+            <h2>Our Approach to Design and AI</h2>
+            <p>
+              Revolutionizing your experience with innovative features that
+              blend intelligent AI and user- centric design, empowering you to
+              achieve more effortlessly
+            </p>
+          </div>
         </div>
 
-        <div class="features-image swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                   <div class="feat-item">
-                    <img src="/assets/bliks(fea) 1.svg" alt="Feat Icon" class="feat-icon">
-                    <div class="feat-teks">
-                        <h3>AI health scanner for our body</h3>
-                        <p>Advanced tools to monitor and analyze your health <br> effortlessly</p>
-                    </div>
-                    <div class="image-icon">
-                        <img src="/assets/feat(1).png">
-                    </div>
-                   </div>
-                </div>
-
-                <div class="swiper-slide">
-                   <div class="feat-item">
-                    <img src="/assets/message(fea)2.svg" alt="Feat Icon" class="feat-icon">
-                    <div class="feat-teks">
-                        <h3>Consultation with a good Doctor</h3>
-                        <p>Receive expert advice anytime, enhanced by AI for <br> accurate and personalized healthcare</p>
-                    </div>
-                    <div class="image-icon">
-                        <img src="/assets/feat(2).png">
-                    </div>
-                   </div>
-                </div>
-
-                <div class="swiper-slide">
-                   <div class="feat-item">
-                    <img src="/assets/lov(fea)3.svg" alt="Feat Icon" class="feat-icon">
-                    <div class="feat-teks">
-                        <h3>Daily Tracking Health</h3>
-                        <p>Keep track of your well-being every day with smart<br>insights</p>
-                    </div>
-                    <div class="image-icon">
-                        <img src="/assets/feat(3).png">
-                    </div>
-                   </div>
-                </div>
-            </div>
+        <div class="features-icon">
+          <img
+            src="/assets/Icon Button(kanan).svg"
+            onclick="nextSlide()"
+            alt="Next"
+          />
+          <img
+            src="/assets/Icon Button(kiri).svg"
+            onclick="prevSlide()"
+            alt="Previous"
+          />
         </div>
-    </section> 
+      </div>
+
+      <div class="features-image swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="feat-item">
+              <img
+                src="/assets/bliks(fea) 1.svg"
+                alt="Feat Icon"
+                class="feat-icon"
+              />
+              <div class="feat-teks">
+                <h3>AI health scanner for our body</h3>
+                <p>
+                  Advanced tools to monitor and analyze your health <br />
+                  effortlessly
+                </p>
+              </div>
+              <div class="image-icon">
+                <img src="/assets/feat(1).png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="feat-item">
+              <img
+                src="/assets/message(fea)2.svg"
+                alt="Feat Icon"
+                class="feat-icon"
+              />
+              <div class="feat-teks">
+                <h3>Consultation with a good Doctor</h3>
+                <p>
+                  Receive expert advice anytime, enhanced by AI for <br />
+                  accurate and personalized healthcare
+                </p>
+              </div>
+              <div class="image-icon">
+                <img src="/assets/coba 2.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="feat-item">
+              <img
+                src="/assets/lov(fea)3.svg"
+                alt="Feat Icon"
+                class="feat-icon"
+              />
+              <div class="feat-teks">
+                <h3>Daily Tracking Health</h3>
+                <p>
+                  Keep track of your well-being every day with smart<br />insights
+                </p>
+              </div>
+              <div class="image-icon">
+                <img src="/assets/feat(3).png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="alxelie container">
-        <div class="alxelie-image">
-            <img src="/assets/Alxello.png">
+      <div class="alxelie-image">
+        <img src="/assets/Alxello.png" />
+      </div>
+      <div class="alxelie-title">
+        <button class="alxelie-label">
+          <img src="/assets/titik.svg" /> Al-Xelle
+        </button>
+        <div class="alxelie-text">
+          <h2>Check Your Health With Our <span> AI Xelie</span></h2>
+          <p>
+            Unlock a new level of health monitoring with AI Xelie. Experience
+            accurate, real- time insights designed to help you take control of
+            your well-being effortlessly
+          </p>
         </div>
-        <div class="alxelie-title">
-            <button class="alxelie-label">
-                <img src="/assets/titik.svg"> Al-Xelle
-            </button>
-            <div class="alxelie-text">
-                <h2> Check Your Health With Our <span> AI Xelie</span></h2>
-                <p>Unlock a new level of health monitoring with AI Xelie. Experience accurate, real- time insights designed to help you take control of your well-being effortlessly </p>
-            </div>
-            <div class="alxelie-button">
-                <button class="learn-more"> learn more
-                </button>
-            </div>
+        <div class="alxelie-button">
+          <button class="learn-more">learn more</button>
         </div>
+      </div>
     </section>
 
-   <section class="healt container">
-           <img 
-           class="halt-image-bg"
-           src="/assets/healt.png" alt="Healthcare AI">
-       <div class="healt-content">
-           <button class="healt-label">
-               <img src="/assets/titik.svg"> HealtDoc
-           </button>
-           <h2> Trusted health Application </h2>
-           <p> Your reliable partner in healthcare, providing accurate, real-time insights and expert guidance powered by advanced AI technology </p>
-           <button  class="donwload-btn">
-               <img src="/assets/apple.svg">
-               Donwload App
-           </button>
-       </div>
-   </section> 
+    <section class="healt container">
+      <img class="halt-image-bg" src="/assets/healt.png" alt="Healthcare AI" />
+      <div class="healt-content">
+        <button class="healt-label">
+          <img src="/assets/titik.svg" /> HealtDoc
+        </button>
+        <h2>Trusted health Application</h2>
+        <p>
+          Your reliable partner in healthcare, providing accurate, real-time
+          insights and expert guidance powered by advanced AI technology
+        </p>
+        <button class="donwload-btn">
+          <img src="/assets/apple.svg" />
+          Donwload App
+        </button>
+      </div>
+    </section>
 
     <section class="team-section container">
-        <div class="team-text">
-            <div class="logo-card">
-                <img src="/assets/logo.svg" alt="Logo">
-            </div>
+      <div class="team-text">
+        <div class="logo-card">
+          <img src="/assets/logo.svg" alt="Logo" />
         </div>
+      </div>
 
-        <div class="team-title">
-            <h2>We create innovative solutions that transform the healthcare industry.</h2>
-             <p>By combining cutting-edge technology and expert insights,we deliver smarter, more efficient healthcare solutions that prioritize your well- being</p>
-        </div>
+      <div class="team-title">
+        <h2>
+          We create innovative solutions that transform the healthcare industry.
+        </h2>
+        <p>
+          By combining cutting-edge technology and expert insights,we deliver
+          smarter, more efficient healthcare solutions that prioritize your
+          well- being
+        </p>
+      </div>
 
-        <div class="list-card">
-            <div class="card">
-                <img src="/assets/cardBaru.png" alt="Dr. Vinayak Kambale">
-                <div class="card-title">
-                    <div class="card-content">
-                        <h3>Dr. Vinayak Kambale</h3>
-                        <p>Founder HealthDoc</p>  
-                    </div>
-                    <p class="card-text">Pediatrician Specialist</p>
-                </div> 
+      <div class="list-card">
+        <div class="card">
+          <img src="/assets/cardBaru.png" alt="Dr. Vinayak Kambale" />
+          <div class="card-title">
+            <div class="card-content">
+              <h3>Dr. Vinayak Kambale</h3>
+              <p>Founder HealthDoc</p>
             </div>
-            <div class="card">
-                <img src="/assets/cardBaru.png" alt="Dr. Cameron Desy">
-                <div class="card-title">
-                    <div class="card-content">
-                        <h3>Dr. Cameron Desy</h3>
-                        <p> CEO HealthDoc</p>
-                    </div>
-                    <p class="card-text">Pediatrician Specialist</p>
-                </div> 
-            </div>
-            <div class="card">
-                <img src="/assets/cardBaru.png" alt="Dr. Chelcia">
-                <div class="card-title">
-                    <div class="card-content">
-                        <h3>Dr. Chelcia</h3>
-                        <p> Marketing HealthDoc</p>
-                    </div>
-                    <p class="card-text">Radiology Specialist</p>
-                </div> 
-            </div>
-            <div class="card">
-                <img src="/assets/cardBaru.png" alt="Dr. Angelina Jol">
-                <div class="card-title">
-                    <div class="card-content">
-                        <h3>Dr. Angelina Jol</h3>
-                        <p> CTO of HealtDoc</p>
-                    </div>
-                    <p class="card-text">Internist Specialist</p>
-                </div> 
-            </div>
+            <p class="card-text">Pediatrician Specialist</p>
+          </div>
         </div>
+        <div class="card">
+          <img src="/assets/cardBaru.png" alt="Dr. Cameron Desy" />
+          <div class="card-title">
+            <div class="card-content">
+              <h3>Dr. Cameron Desy</h3>
+              <p>CEO HealthDoc</p>
+            </div>
+            <p class="card-text">Pediatrician Specialist</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/cardBaru.png" alt="Dr. Chelcia" />
+          <div class="card-title">
+            <div class="card-content">
+              <h3>Dr. Chelcia</h3>
+              <p>Marketing HealthDoc</p>
+            </div>
+            <p class="card-text">Radiology Specialist</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/cardBaru.png" alt="Dr. Angelina Jol" />
+          <div class="card-title">
+            <div class="card-content">
+              <h3>Dr. Angelina Jol</h3>
+              <p>CTO of HealtDoc</p>
+            </div>
+            <p class="card-text">Internist Specialist</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-<section class="blog container">
-    <div class="blog-text">
+    <section class="blog container">
+      <div class="blog-text">
         <h2>Our News</h2>
-        <p>Stay updated with the latest developments, innovations, and insights in the healthcare industry</p>
-    </div>
+        <p>
+          Stay updated with the latest developments, innovations, and insights
+          in the healthcare industry
+        </p>
+      </div>
 
-    <div class="list-blog">
+      <div class="list-blog">
         <div class="blog-item">
-            <div class="blog-content">
-                <img src="/assets/ownwe(1).png" alt="AI-Powered Health">
-                <div class="blog-tags">
-                    <button class="general">General</button>
-                    <button class="tanggal">Des 24, 2024</button>
-                </div>
-                <div class="blog-title">
-                    <h3>AI-Powered Health Monitoring Tools</h3>
-                    <p>Discover the future of health tracking with AI-driven solutions that provide real-time insights and personalized care.</p>
-                </div>
+          <div class="blog-content">
+            <img src="/assets/ownwe(1).png" alt="AI-Powered Health" />
+            <div class="blog-tags">
+              <button class="general">General</button>
+              <button class="tanggal">Des 24, 2024</button>
             </div>
+            <div class="blog-title">
+              <h3>AI-Powered Health Monitoring Tools</h3>
+              <p>
+                Discover the future of health tracking with AI-driven solutions
+                that provide real-time insights and personalized care.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="blog-item">
-            <div class="blog-content">
-                <img src="/assets/ownwe(2).png" alt="Partnerships for Smarter Healthcare">
-                <div class="blog-tags">
-                    <button class="general">General</button>
-                    <button class="tanggal">Des 24, 2024</button>
-                </div>
-                <div class="blog-title">
-                    <h3>Partnerships for Smarter Healthcare</h3>
-                    <p>We’ve partnered with leading institutions to bring AI technology to the forefront of patient care and health management.</p>
-                </div>
+          <div class="blog-content">
+            <img
+              src="/assets/ownwe(2).png"
+              alt="Partnerships for Smarter Healthcare"
+            />
+            <div class="blog-tags">
+              <button class="general">General</button>
+              <button class="tanggal">Des 24, 2024</button>
             </div>
+            <div class="blog-title">
+              <h3>Partnerships for Smarter Healthcare</h3>
+              <p>
+                We’ve partnered with leading institutions to bring AI technology
+                to the forefront of patient care and health management.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="blog-item">
-            <div class="blog-content">
-                <img src="/assets/ownwe(3).png" alt="The Launch of AI Health Scanner">
-                <div class="blog-tags">
-                    <button class="general">General</button>
-                    <button class="tanggal">Des 24, 2024</button>
-                </div>
-                <div class="blog-title">
-                    <h3>The Launch of AI Health Scanner</h3>
-                    <p>Introducing our AI health scanner, a tool designed to offer precise health assessments and proactive insights.</p>
-                </div>
+          <div class="blog-content">
+            <img
+              src="/assets/ownwe(3).png"
+              alt="The Launch of AI Health Scanner"
+            />
+            <div class="blog-tags">
+              <button class="general">General</button>
+              <button class="tanggal">Des 24, 2024</button>
             </div>
+            <div class="blog-title">
+              <h3>The Launch of AI Health Scanner</h3>
+              <p>
+                Introducing our AI health scanner, a tool designed to offer
+                precise health assessments and proactive insights.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-    
-    <div class="blog-button">
+      </div>
+
+      <div class="blog-button">
         <button class="blog-btn">View more</button>
-    </div>
-</section> 
+      </div>
+    </section>
 
-<footer class="footer">
-    <div class="footer-one container">
-            <div class="footer-section ">
-                <div class="footer-text">
-                    <h2>Join Our News <br>letter</h2>
-                    <p>Up to date with everythink</p>
-                </div>
-                <div class="list-footer">
-                    <div class="list-title">
-                        <h3> Subscribe</h3>
-                    </div>
-                    <div class="list-label">
-                        <div class="email">
-                            <input type="email" placeholder="Your email" class="email-input">
-                        </div>
-                        <div class="subcribe">
-                            <button class="subs">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
+    <footer class="footer">
+      <div class="footer-one container">
+        <div class="footer-section">
+          <div class="footer-text">
+            <h2>Join Our News <br />letter</h2>
+            <p>Up to date with everythink</p>
+          </div>
+          <div class="list-footer">
+            <div class="list-title">
+              <h3>Subscribe</h3>
             </div>
-            
-            <div class="footer-item">
-                <div class="item">
-                    <div class="footer-icon">
-                        <img src="/assets/logo.svg" alt="HealthDoc Logo">
-                        <span>HealthDoc</span>
-                    </div>
-                    <div class="icon-title">
-                        <p>Empowering your projects with innovative design and tailored solutions that bring your ideas to life.</p>
-                    </div>
-                    <div class="footer-logo">
-                        <img src="/assets/instagram(1).svg" alt="Instagram">
-                        <img src="/assets/linkedin(1).svg" alt="LinkedIn">
-                        <img src="/assets/discord(2).svg" alt="Discord">
-                    </div>
-                </div>
-            
-            
-                <div class="footer-form">
-                    <div class="form-aboutus">
-                        <a href="#">About us</a>
-                    </div>
-                    <div class="form-testimoni">
-                        <a href="#">Testimonial</a>
-                    </div>
-                    <div class="form-blog">
-                        <a href="#">Blog</a>
-                    </div>
-                    <div class="form-contact">
-                        <a href="#">Contact</a>
-                    </div>
-                    <div class="form-donwload">
-                        <a href="#">Download</a>
-                    </div>
-                </div>
-                
-                <div class="bootem">
-                    <div class="team-add">
-                        <p>© healthdoc 2024</p>
-                    </div>
-                    <div class="bootem-text">
-                        <div class="teamof">
-                            <P>Term of use</P>
-                        </div>
-                        <div class="privat">
-                            <P>Privacy policy</P>
-                        </div>
-                    </div>
-                </div>
+            <div class="list-label">
+              <div class="email">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="email-input"
+                />
+              </div>
+              <div class="subcribe">
+                <button class="subs">Subscribe</button>
+              </div>
             </div>
-
+          </div>
         </div>
-    </footer>
-    
-    <script src="/script.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-</body>
 
+        <div class="footer-item">
+          <div class="item">
+            <div class="footer-icon">
+              <img src="/assets/logo.svg" alt="HealthDoc Logo" />
+              <span>HealthDoc</span>
+            </div>
+            <div class="icon-title">
+              <p>
+                Empowering your projects with innovative design and tailored
+                solutions that bring your ideas to life.
+              </p>
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/instagram(1).svg" alt="Instagram" />
+              <img src="/assets/linkedin(1).svg" alt="LinkedIn" />
+              <img src="/assets/discord(2).svg" alt="Discord" />
+            </div>
+          </div>
+
+          <div class="footer-form">
+            <div class="form-aboutus">
+              <a href="#">About us</a>
+            </div>
+            <div class="form-testimoni">
+              <a href="#">Testimonial</a>
+            </div>
+            <div class="form-blog">
+              <a href="#">Blog</a>
+            </div>
+            <div class="form-contact">
+              <a href="#">Contact</a>
+            </div>
+            <div class="form-donwload">
+              <a href="#">Download</a>
+            </div>
+          </div>
+
+          <div class="bootem">
+            <div class="team-add">
+              <p>© healthdoc 2024</p>
+            </div>
+            <div class="bootem-text">
+              <div class="teamof">
+                <p>Term of use</p>
+              </div>
+              <div class="privat">
+                <p>Privacy policy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
 </html>

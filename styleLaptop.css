@@ -1,9 +1,9 @@
-@media (max-width: 1024px) {
-  .about-image{
-    width:70%; 
+@media screen and (max-width: 1024px) {
+  .about-image {
+    width: 70%;
   }
-  .about-image img{
-    width: 100% ;
+  .about-image img {
+    width: 100%;
     margin-left: 16px;
   }
   .about-title h2 {
@@ -11,16 +11,16 @@
   }
 
   .features-text {
-    max-width: 800px; 
+    max-width: 800px;
   }
-  .features-section{
+  .features-section {
     width: 95%;
   }
   .footer-section {
     margin: 16px;
   }
 
-  .footer-form{
+  .footer-form {
     margin: 16px;
   }
 
@@ -29,27 +29,32 @@
   }
   .item {
     margin-left: 16px;
-
   }
-  .alxelie-image{
-    width:100%;
+  .alxelie-image {
+    width: 100%;
   }
-  .alxelie-image img{
-    width: 100% ;
+  .alxelie-image img {
+    width: 100%;
   }
-  .alxelie-text h2{
+  /* .alxelie-text h2{
     font-size: 40px;
-  }
+  } */
 
   .footer-text h2 {
     font-size: 40px;
   }
 
-  .features-title h2{
+  .features-title h2 {
     font-size: 40px;
   }
 
-  
+  .list-card {
+    grid-template-columns: repeat(2, minmax(0, 2fr));
+  }
 }
 
-  
+/* @media screen and (max-width: 576px) {
+  .list-card {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+} */

@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-header {
+/* header {
   padding: 12px 12px;
   background: white;
   height: 50px;
@@ -13,12 +13,41 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100000000000000000000000;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center; */
+/* } */
+
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  height: 50px;
+  z-index: 999999999999999999;
+}
+
+.navbar {
+  padding: 20px 0px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background: white;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 26px;
 }
 
 .logo {
@@ -33,13 +62,7 @@ header {
   gap: 8px;
   justify-content: center;
   font-family: "inter", sans-serif;
-}
-
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 26px;
+  margin-left: 24px;
 }
 
 .nav-links li a {
@@ -49,6 +72,10 @@ header {
   color: #747b8b;
   font-size: 0.8em;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button.donwload-btn {
+  margin-right: 24px;
 }
 
 button.donwload-btn,
@@ -306,7 +333,7 @@ button.learn-more {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px 0; 
+  padding: 20px 0;
 }
 
 .swiper-wrapper {

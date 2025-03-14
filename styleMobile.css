@@ -4,22 +4,22 @@
       padding: 7px;
     }
     header {
-      padding: 12px 24px;
       gap: 24px;
     }
     .nav-links {
-      display: none;
+      /* display: none; */
       flex-direction: column;
-      position: absolute;
+      position: fixed;
+      transition: all 300ms ease;
       font-size: 48px;
-      top: 60px;
+      top: 51px;
       height: 100vh;
-      right: 0;
+      right: -100vh;
       background-color: #ffffff;
       width: 100%;
       text-align: center;
       z-index: 999;
-      padding: 10px 0;
+      padding: 24px 0;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
     .nav-links li a {
@@ -35,12 +35,11 @@
     }
   
     .nav-links.active {
-      display: flex;
+      right: 0;
     }
   
     button.donwload-btn {
       display: none;
-      
     }
     .healt button.donwload-btn {
       display: flex;
@@ -53,6 +52,7 @@
     .menu-toggle {
       display: flex;
       cursor: pointer;
+      right: 10px
     }
   
     .menu-toggle span {
@@ -157,7 +157,7 @@
       display: flex;
       flex-direction: column; 
       align-items: flex-start; 
-      width: 90%;
+      width: 100%;
     }
     .features-text {
       /* max-width: 500px;  */

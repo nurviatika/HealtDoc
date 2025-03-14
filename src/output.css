@@ -738,6 +738,10 @@ video {
   height: 2rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-\[125px\] {
   height: 125px;
 }
@@ -748,10 +752,6 @@ video {
 
 .h-\[3px\] {
   height: 3px;
-}
-
-.h-\[69vh\] {
-  height: 69vh;
 }
 
 .h-full {

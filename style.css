@@ -27,14 +27,15 @@ body {
 
 header {
   position: fixed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   background: white;
-  height: 50px;
+  top: 0;
   z-index: 999999999999999999;
 }
 
 .navbar {
-  padding: 20px 0px;
+  padding: 12px 0px;
   max-width: 1200px;
   width: 100%;
   display: flex;
@@ -70,15 +71,28 @@ header {
   width: 40%;
   text-decoration: none;
   color: #747b8b;
-  font-size: 0.8em;
+  font-size: 14px;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-button.donwload-btn {
-  margin-right: 24px;
+button.donwload-btn{
+    display: flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    align-items: center;
+    gap: 4px;
+    background-color: #8246fb; 
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-right: 24px;
+  
 }
 
-button.donwload-btn,
 button.donwload-btn2 {
   background: #8246fb;
   color: #ffffff;
@@ -96,6 +110,7 @@ button.donwload-btn2 {
   transition: 0.3s;
   font-size: 12px;
 }
+
 button.donwload-btn3 {
   background: #8246fb;
   color: #ffffff;
@@ -112,15 +127,29 @@ button.donwload-btn3 {
   font-weight: 200;
   transition: 0.3s;
 }
+
+button.donwload-btn4 {
+  background: #8246fb;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  max-width: 160px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  transition: 0.3s;
+}
+
 button.donwload-btn2 {
   display: none;
 }
 
 .donwload-btn:hover {
-  background: #bc9bfd;
-}
-
-.donwload-btn3:hover {
   background: #bc9bfd;
 }
 
@@ -163,6 +192,10 @@ button.donwload-btn2 {
   font-family: "Plus Jakarta Sans", sans-serif;
   justify-content: flex-start;
   padding: 50px 0px;
+}
+
+.hero-text {
+  padding: 16px 16px;
 }
 
 .hero-text span {
@@ -382,6 +415,7 @@ button.features-label {
 
 .features-text {
   width: 670%;
+  margin-left: 16px;
 }
 
 .features-title h2 {
@@ -515,7 +549,7 @@ button.alxelie-label {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
-  padding: 40px 0px;
+  padding: 40px 16px;
 }
 
 .healt-content {
@@ -528,7 +562,7 @@ button.alxelie-label {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 16px;
+  margin-left: 24px;
 }
 
 .healt-label {
@@ -892,9 +926,11 @@ button.subcribe {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  /* width: 100%; */
   padding-top: 60px;
   border-top: 1px solid #2a2a2a;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .bootem {
@@ -908,6 +944,7 @@ button.subcribe {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.2px;
+  padding-bootem: 15px;
 }
 
 .bootem-text {

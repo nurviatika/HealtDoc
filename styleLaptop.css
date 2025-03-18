@@ -27,24 +27,13 @@
 
   .footer-form {
     margin-top: 16px;
-    /* margin: 16px; */
   }
-
-  /* .bootem {
-    margin: 16px;
-  } */
-  /* .item {
-    margin-left: 16px;
-  } */
   .alxelie-image {
     width: 100%;
   }
   .alxelie-image img {
     width: 100%;
   }
-  /* .alxelie-text h2{
-    font-size: 40px;
-  } */
 
   .footer-text h2 {
     font-size: 40px;
@@ -62,20 +51,8 @@
     margin-left: 9px; 
     padding: 0px 24px;
   }
-
-
+  
   .hero-text{
     padding: 16px 16px;
   }
-
-  .hero-text h1{
-    color: #8246fb;
-  }
 }
-
-
-/* @media screen and (max-width: 576px) {
-  .list-card {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-} */

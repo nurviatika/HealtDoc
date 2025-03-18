@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
+    centeredSlides: false,
+    initialSlide: 0,
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
@@ -35,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       1024: { slidesPerView: 4, spaceBetween: 15 },
     },
   });
+  
 
   var swiperFeatures = new Swiper(".features-image", {
     loop: true,

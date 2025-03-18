@@ -15,13 +15,14 @@ header {
 }
 
 .navbar {
-  padding: 12px 0px;
+  /* padding: 12px 0px; */
   max-width: 1200px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: white;
+  height: 64px;
 }
 
 .nav-links {

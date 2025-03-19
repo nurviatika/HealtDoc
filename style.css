@@ -155,6 +155,7 @@ button.donwload-btn2 {
   max-width: 1212px;
   width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 
 .hero {

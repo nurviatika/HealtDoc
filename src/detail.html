@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Detail</title>
   </head>
   <body>
@@ -85,7 +86,7 @@
 
     <section class="container flex md:flex-col flex-col  mt-[50px] md:mt-16">
       <div class="md:pb-10 md:pt-20 py-10">
-        <img
+        <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="0" data-aos-mirror="true" data-aos-once="false"
           src="/assets/Image_detail(1).png"
           class="md:w-full rounded-[38px] h-[338px] md:h-[557px] object-cover object-center"/>
       </div>
@@ -93,13 +94,13 @@
       <div class="grid grid-cols-12 gap-8">
         <div class="firtsh-card-detail col-span-12 lg:col-span-8 md:flex-row flex-col">
           <div class="text-left">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" >
               <h3
                 class="font-normal md:text-5xl text-[32px] leading-[60px] tracking-tighter font-jakarta text-hitam">
                 How to use the HaloDoc Application
               </h3>
             </div>
-            <div class="flex gap-3 items-start md:pt-6 md:pb-4 py-6">
+            <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"  class="flex gap-3 items-start md:pt-6 md:pb-4 py-6">
               <span
                 class="border border-gray-400 text-gray-800 rounded-full text-base font-medium px-2">
                 General
@@ -109,7 +110,7 @@
               </span>
             </div>
             <div>
-              <p class="text-[16px] font-jakarta text-hitam_dl">
+              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"  class="text-[16px] font-jakarta text-hitam_dl">
                 We are proud to collaborate with some of the world's most
                 renowned institutions to revolutionize the healthcare industry.
                 Together, we are harnessing the power of cutting-edge AI
@@ -118,13 +119,13 @@
                 better health outcomes for all.
               </p>
             </div>
-            <img
+            <img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="700" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"
               src="/assets/Image_detail(2).png"
               alt="AI-Powered Health"
               class="w-full rounded-lg py-6"
             />
             <div>
-              <p class="text-[16px] font-jakarta text-hitam_dl pb-6">
+              <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" class="text-[16px] font-jakarta text-hitam_dl pb-6">
                 We are proud to collaborate with some of the world's most
                 renowned institutions to revolutionize the healthcare industry.
                 Together, we are harnessing the power of cutting-edge AI
@@ -148,8 +149,9 @@
         </div>
 
         <div class="col-span-12 lg:col-span-4 flex flex-col md:flex-col">
+
           <a href="/src/blog.html">
-            <div class="flex-row gap-5 flex mb-10">
+            <div data-aos="fade-left"data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"  class="flex-row gap-5 flex mb-10">
               <img
                 src="/assets/Image-blog1.png"
                 alt="blog image1"
@@ -179,7 +181,8 @@
               </div>
             </div>
           </a>
-          <div class="flex-row gap-5 flex mb-10">
+
+          <div data-aos="fade-left"data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"  class="flex-row gap-5 flex mb-10">
             <img
               src="/assets/Image-blog2.png"
               alt="blog image1"
@@ -209,7 +212,7 @@
             </div>
           </div>
 
-          <div class="flex-row gap-5 flex mb-10">
+          <div data-aos="fade-left"data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"  class="flex-row gap-5 flex mb-10">
             <img
               src="/assets/Image-blog3.png"
               alt="blog image1"
@@ -239,7 +242,7 @@
             </div>
           </div>
           <div class="flex gap-3 items-start pt-5">
-            <button
+            <button data-aos="fade-right" data-aos-duration="600" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" 
               class="text-gray-500 text-base font-medium flex flex-row-reverse"
             >
               <img src="/assets/learn-more.svg" class="items-end" />
@@ -252,11 +255,11 @@
 
     <footer class="bg-hitam rounded-3xl m-[10px]">
       <div class="container mx-auto flex flex-col gap-3 text-putih">
-        <div class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8">
-          <div class="font-jakarta">
-            <h2 class="md:text-[64px] text-[40px] font-light">
-              Join Our News <br />letter
-            </h2>
+        <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"
+          class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8"
+        >
+          <div class="font-jakarta">                                                                                                                                                                                    
+            <h2 class="md:text-[64px] text-[40px] font-light">Join Our News <br />letter</h2>
             <p class="text-semiAbu text-[16px]">Up to date with everything</p>
           </div>
           <div class="flex flex-col gap-2">
@@ -265,26 +268,23 @@
               <input
                 type="email"
                 placeholder="Your email"
-                class="p-2 md:w-64 bg-transparent border border-semiAbu rounded-[100px] text-putih font-helvetica"
+                class="p-2 md:w-64  bg-transparent border border-semiAbu rounded-[100px] text-putih font-helvetica"
               />
-              <button
-                class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-jakarta"
-              >
+              <button class="px-4 py-2 bg-unggu text-putih rounded-[100px] font-jakarta">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
 
-        <div
-          class="flex flex-wrap justify-between border-t border-abuGelap pt-5"
-        >
+        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"
+          class="flex flex-wrap justify-between border-t border-abuGelap pt-5">
           <div class="flex flex-col gap-4">
             <div class="flex items-center gap-3">
               <img src="/assets/logo.svg" alt="HealthDoc Logo" class="w-6" />
               <span class="text-lg font-semibold font-inter">HealthDoc</span>
             </div>
-            <p class="text-semiAbu max-w-md font-jakarta">
+            <p class="text-semiAbu max-w-md font-jakarta ">
               Empowering your projects with innovative design and tailored
               solutions that bring your ideas to life.
             </p>
@@ -307,9 +307,7 @@
             </div>
           </div>
 
-          <div
-            class="flex flex-wrap gap-6 text-semiAbu font-jakarta text-lg mt-[16px]"
-          >
+          <div class="flex flex-wrap gap-6 text-semiAbu font-jakarta text-lg mt-[16px]">
             <a href="#" class="hover:text-putih">About us</a>
             <a href="#" class="hover:text-putih">Testimonial</a>
             <a href="#" class="hover:text-putih">Blog</a>
@@ -318,9 +316,7 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4 font-jakarta py-[15px]"
-        >
+        <div class="flex flex-col md:flex-row justify-between text-semiAbu text-sm border-t border-abuGelap pt-4 font-jakarta py-[15px]">
           <p>&copy; HealthDoc 2024</p>
           <div class="flex gap-4">
             <p class="hover:text-putih cursor-pointer">Term of use</p>
@@ -331,5 +327,7 @@
     </footer>
 
     <script src="/src/menu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(); </script>
   </body>
 </html>

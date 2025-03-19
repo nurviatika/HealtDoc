@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Blog</title>
 </head>
 <body>
@@ -47,16 +48,16 @@
     </header>
 
     <section class="container  md:flex-col flex-row  gap-10 pb-20 pt-[100px]  md:w-[746.08px] w-[343px] px-4 md:PX-[346.96PX] mt-[50px] md:mt-16">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="500"data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false">
             <img src="/assets/404.png">
         </div>
         <div class="flex flex-col items-center py-8 ">
-            <h3 class="font-normal md:text-[40px] text-xl font-jakarta leading-8 tracking-tight pb-4 md:w-[623px] w-[343px] text-center">Looks like this page doesn't exist!</h3>
-            <p class="text-sm text-gray-500 w-[382px] text-center">Go back to home and contunue exploring</p>
+            <h3 data-aos="fade-up" data-aos-duration="600"data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" class="font-normal md:text-[40px] text-xl font-jakarta leading-8 tracking-tight pb-4 md:w-[623px] w-[343px] text-center">Looks like this page doesn't exist!</h3>
+            <p data-aos="fade-up" data-aos-duration="700"data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" class="text-sm text-gray-500 w-[382px] text-center">Go back to home and contunue exploring</p>
         </div>
         <a href="/index.html">
             <div class="flex justify-center">
-                <button class="md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda">
+                <button data-aos="fade-up" data-aos-duration="700"data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false" class="md:flex items-center gap-1 bg-unggu text-putih px-4 py-2 rounded-full text-xs font-medium transition hover:bg-ungguMuda">
                     Back to Home
                 </button>
             </div>
@@ -65,7 +66,7 @@
 
     <footer class="bg-hitam rounded-3xl m-[10px]">
       <div class="container mx-auto flex flex-col gap-3 text-putih">
-        <div
+        <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"
           class="flex flex-col md:flex-row justify-between gap-8 pr-4 py-8"
         >
           <div class="font-jakarta">                                                                                                                                                                                    
@@ -87,9 +88,8 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-wrap justify-between border-t border-abuGelap pt-5"
-        >
+        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"  data-aos-mirror="true" data-aos-once="false"
+          class="flex flex-wrap justify-between border-t border-abuGelap pt-5">
           <div class="flex flex-col gap-4">
             <div class="flex items-center gap-3">
               <img src="/assets/logo.svg" alt="HealthDoc Logo" class="w-6" />
@@ -136,6 +136,10 @@
         </div>
       </div>
     </footer>
+
+
       <script src="/src/menu.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>AOS.init(); </script>
 </body>
 </html>

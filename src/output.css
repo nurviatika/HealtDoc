@@ -714,10 +714,6 @@ video {
   margin-top: auto;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .block {
   display: block;
 }
@@ -834,6 +830,10 @@ video {
   width: 100%;
 }
 
+.w-\[45\%\] {
+  width: 45%;
+}
+
 .max-w-\[260px\] {
   max-width: 260px;
 }
@@ -891,6 +891,10 @@ video {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1172,6 +1176,11 @@ video {
   padding-bottom: 23px;
 }
 
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1224,12 +1233,12 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-\[100px\] {
-  padding-top: 100px;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
 }
 
 .text-left {
@@ -1314,6 +1323,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[33px\] {
+  font-size: 33px;
 }
 
 .font-bold {
@@ -1519,6 +1532,16 @@ section {
   opacity: 1;
 }
 
+@media (min-width: 425px) {
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 768px) {
   .md\:col-span-10 {
     grid-column: span 10 / span 10;
@@ -1558,6 +1581,10 @@ section {
 
   .md\:h-\[60px\] {
     height: 60px;
+  }
+
+  .md\:h-\[48px\] {
+    height: 48px;
   }
 
   .md\:w-64 {
@@ -1600,6 +1627,30 @@ section {
     width: 100%;
   }
 
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .md\:w-\[48px\] {
+    width: 48px;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[64\%\] {
+    width: 64%;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .md\:w-\[292px\] {
+    width: 292px;
+  }
+
   .md\:max-w-\[198px\] {
     max-width: 198px;
   }
@@ -1630,6 +1681,14 @@ section {
 
   .md\:gap-\[60px\] {
     gap: 60px;
+  }
+
+  .md\:gap-\[px\] {
+    gap: px;
+  }
+
+  .md\:gap-\[36px\] {
+    gap: 36px;
   }
 
   .md\:gap-x-10 {
@@ -1664,6 +1723,10 @@ section {
     padding-bottom: 80px;
   }
 
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
   .md\:pt-20 {
     padding-top: 5rem;
   }
@@ -1674,10 +1737,6 @@ section {
 
   .md\:pt-\[60px\] {
     padding-top: 60px;
-  }
-
-  .md\:pt-0 {
-    padding-top: 0px;
   }
 
   .md\:text-2xl {
@@ -1725,8 +1784,21 @@ section {
     line-height: 1.75rem;
   }
 
+  .md\:text-\[72px\] {
+    font-size: 72px;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
   .md\:leading-8 {
     line-height: 2rem;
+  }
+
+  .md\:text-\[px\] {
+    color: px;
   }
 }
 
@@ -1751,11 +1823,46 @@ section {
     grid-column: span 8 / span 8;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .lg\:w-\[53\%\] {
+    width: 53%;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:text-\[64px\] {
+    font-size: 64px;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }

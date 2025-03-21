@@ -294,6 +294,7 @@ button.about-label {
   padding: 4px 8px;
   background-color: unset; /*pelajari*/
   border: 1px solid #e3e5e8;
+  align-item: center;
 }
 
 .about-title {
@@ -393,6 +394,7 @@ button.features-label {
   border-radius: 1000px;
   border: 1px solid #e3e5e8;
   background-color: unset;
+  align-item: center;
 }
 
 .features-title {
@@ -489,6 +491,7 @@ button.alxelie-label {
   border-radius: 1000px;
   border: 1px solid #e3e5e8;
   background-color: unset;
+  align-item: center;
 }
 
 .alxelie-text h2 {
@@ -560,6 +563,7 @@ button.alxelie-label {
   border-radius: 100px;
   border: 1px solid #e3e5e8;
   background-color: unset; /*pelajari*/
+  align-item: center;
 }
 
 .healt-content h2 {
